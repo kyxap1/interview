@@ -65,8 +65,9 @@
 * I've lost my root password, what can I do?
 * I've rebooted a remote server but after 10 minutes I'm still not able to ssh into it, what can be wrong?
 * If you were stuck on a desert island with only 5 command-line utilities, which would you choose?
-* You come across a random computer and it appears to be a command console for the universe. What is the first thing you type?
 * Tell me about a creative way that you've used SSH?
 * You have deleted by error a running script, what could you do to restore it?
 * What will happen on 19 January 2038?
+* You come across a random computer and it appears to be a command console for the universe. What is the first thing you type?
 * How to reboot server when reboot command is not responding?
+* You need to upgrade kernel at 100-1000 servers, how you would do this?
