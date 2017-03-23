@@ -5,6 +5,8 @@
   1. [Файловая система](#filesystem)
   1. [Резервирование](#backup)
   1. [Сеть](#networking)
+  1. [Shell](#shell)
+  1. [Решение проблем](#troubleshooting)
  
 
 #### [[⬆]](#toc) <a name='general'>Общие вопросы</a>
