@@ -1,23 +1,29 @@
-#### [[⬆]](#toc) <a name='general'>General Questions:</a>
+#### [[⬆]](#toc) <a name='general'>Общие вопросы</a>
 
 * Расскажите про рабочее окружение. (OS, Editor, Browsers, Tools etc.)
 * Расскажите про самый большой проект, в котором участвовали.
-* Расскажите про самую большую ошибку, которую допустили за последний год. Как бы ее избежали сейчас? Какой опыт получили?
-* Что нового по работе узнали на этой неделе.
+* Расскажите про самую большую ошибку, которую допустили за последний год. Как бы ее избежали сейчас?
+* Расскажите про самые извращенные костыли, которые применяете в работе.
+* Что нового в своей работе узнали на этой неделе?
 
-#### [[⬆]](#toc) <a name='common'>Common Linux Questions:</a>
+#### [[⬆]](#toc) <a name='common'>Базовые вопросы по Linux</a>
 
-* Which command will show you free/used memory? Does free memory exist on Linux?
-* What is Virtual Memory?
-* What is swap and what is it used for?
-* Explain the three load averages and what do they indicate. What command can be used to view the load averages?
-* What Unix/Linux commands will alter a files ownership, files permissions?
-* What does ```chmod +x FILENAME```do?
-* What does the permission 0750 on a file mean?
-* What does the permission 0750 on a directory mean?
-* How to add a new system user without login permissions?
-* How to add/remove a group from a user?
-* How do you set the mail address of the root/a user?
+* Вывод top:
+* * load average
+* * процессорное время - real/system/user
+* * зомби-процессы
+* * для чего нужен swap
+* * virtual/resident/shared memory
+* Вывод free:
+* * total used free shared buffers cached
+* * что такое free memory на самом деле
+* Что значит ```chmod 0750 FILENAME```?
+* Что значит ```chmod 0750 DIRNAME```?
+* Управление пользователями:
+* * что такое PAM
+* * что такое shadow и для чего нужен?
+* * что такое getent
+* Как перенаправлять всю почту для root в другую систему?
 
 #### [[⬆]](#toc) <a name='fs'> Filesystem Questions:</a>
 
@@ -33,17 +39,17 @@
 * Что такое резервные копии? 
 * * Расскажите про типы резервных копий (полная, инкрементальная)
 * * Расскажите про уровни резервных копий (блочное устройство, файловая система)
-* * Как правильно сделать бекап файловой системы?
+* * Как правильно сделать бекап файлов?
 * * Как правильно сделать бекап базы данных?
 * * Стратегия ротирования бекапов?
 * * Как проверяется консистентность?
 
 #### [[⬆]](#toc) <a name='networking'>Networking Questions:</a>
 
-* What is in /etc/services, /etc/protocols?
-* What commands do you know that can be used to check DNS records?
-* What is a packet filter and how does it work?
-* What is the difference between Telnet and SSH?
+* Что находится в файлах /etc/services, /etc/protocols?
+* Какие команды используются для проверки DNS-записей?
+* Что такое packet filter и как устроен?
+* В чем отличие между telnet и ssh?
 * Что такое DNS и как работает (основы)? Какие недостатки у DNS?
 * Что такое HTTP и как работает (основы)?
 * Что такое HTTP Proxy и как работает?
@@ -52,22 +58,22 @@
 
 #### [[⬆]](#toc) <a name='shell'>Shell Questions:</a>
 
-* How to redirect STDOUT and STDERR in bash? (> /dev/null 2>&1)
-* What does CTRL-C do?
-* How to get all environment variables and how can you use them?
-* What is a bash alias?
-* What happens if I type TAB-TAB?
+* Перенаправление ввода-вывода в bash - STDOUT and STDERR? (> /dev/null 2>&1)
+* Что делает команда CTRL-C?
+* Как просмотреть переменные окружения сессии? А процесса?
+* Что такое bash alias?
+* Как работает автодополнение в shell? (TAB-TAB)
 
 #### [[⬆]](#toc) <a name='troubleshooting'>Troubleshooting Questions:</a>
 
-* I get "command not found" when I run ```ifconfig -a```. What can be wrong?
-* A careless sysadmin executes the following command: ```chmod 444 /bin/chmod ``` - what do you do to fix this?
-* I've lost my root password, what can I do?
-* I've rebooted a remote server but after 10 minutes I'm still not able to ssh into it, what can be wrong?
-* If you were stuck on a desert island with only 5 command-line utilities, which would you choose?
-* Tell me about a creative way that you've used SSH?
-* You have deleted by error a running script, what could you do to restore it?
-* What will happen on 19 January 2038?
-* You come across a random computer and it appears to be a command console for the universe. What is the first thing you type?
-* How to reboot server when reboot command is not responding?
-* You need to upgrade kernel at 100-1000 servers, how you would do this?
+* После команды ```ifconfig -a``` получаем ошибку "command not found". В чем может быть дело?
+* Как получить доступ к системе, не зная root-пароля?
+* После перезагрузки сервера прошло 10 минут, но ssh недоступен. Какие могут быть причины?
+* Назовите 5 command-line утилит, которые бы взяли с собой на необитаемый остров?
+* Что знаете о нестандартном использовании ssh?
+* Как восстановить случайно удаленный скрипт, если он еще не завершил работу?
+* Знаете ли вы что произойдет 19 января 2038?
+* Назовите команды, которые вы выполняете после логина на неизвестный хост?
+* Как перезагрузить сервер, который не реагирует на reboot/shutdown?
+* Как единовременно обновить ядро на 1000 серверов?
+* Как починить ```chmod 444 /bin/chmod ```?
