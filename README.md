@@ -1,11 +1,11 @@
-####[[⬆]](#toc) <a name='general'>General Questions:</a>
+#### [[⬆]](#toc) <a name='general'>General Questions:</a>
 
 * Что нового по работе узнали на этой неделе.
 * Расскажите про рабочее окружение. (OS, Editor, Browsers, Tools etc.)
 * Расскажите про самый большой проект, в котором участвовали.
 * Расскажите про самую большую ошибку, которую допустили за последний год. Как бы ее избежали сейчас? Какой опыт получили?
 
-####[[⬆]](#toc) <a name='common'>Common Linux Questions:</a>
+#### [[⬆]](#toc) <a name='common'>Common Linux Questions:</a>
 
 * Which command will show you free/used memory? Does free memory exist on Linux?
 * What is Virtual Memory?
@@ -19,7 +19,7 @@
 * How to add/remove a group from a user?
 * How do you set the mail address of the root/a user?
 
-####[[⬆]](#toc) <a name='fs'> Filesystem Questions:</a>
+#### [[⬆]](#toc) <a name='fs'> Filesystem Questions:</a>
 
 * Расскажите про устройство файловой системы ext3/ext4. Отличия между xfs и ext3?
 * Что такое RAID? Отличия RAID0, RAID1, RAID5, RAID10?
@@ -28,7 +28,7 @@
 * * Отличия /bin, /sbin, /usr/bin, /usr/sbin, /usr/local/bin
 * * Для чего нужны /etc, /usr/local/etc
 
-####[[⬆]](#toc) <a name='backup'>Backup Questions:</a>
+#### [[⬆]](#toc) <a name='backup'>Backup Questions:</a>
 
 * Что такое резервные копии? 
 * * Расскажите про типы резервных копий (полная, инкрементальная)
@@ -38,7 +38,7 @@
 * * Стратегия ротирования бекапов?
 * * Как проверяется консистентность?
 
-####[[⬆]](#toc) <a name='networking'>Networking Questions:</a>
+#### [[⬆]](#toc) <a name='networking'>Networking Questions:</a>
 
 * What is in /etc/services, /etc/protocols?
 * What commands do you know that can be used to check DNS records?
@@ -50,7 +50,7 @@
 * Что такое HTTPS? Что происходит при открытии страницы по https:// ?
 * Что такое SMTP? Как происходит при после отправки почтового сообщения? Что происходит при приеме сообщения?
 
-####[[⬆]](#toc) <a name='shell'>Shell Questions:</a>
+#### [[⬆]](#toc) <a name='shell'>Shell Questions:</a>
 
 * How to redirect STDOUT and STDERR in bash? (> /dev/null 2>&1)
 * What does CTRL-C do?
@@ -58,8 +58,7 @@
 * What is a bash alias?
 * What happens if I type TAB-TAB?
 
-
-####[[⬆]](#toc) <a name='troubleshooting'>Troubleshooting Questions:</a>
+#### [[⬆]](#toc) <a name='troubleshooting'>Troubleshooting Questions:</a>
 
 * I get "command not found" when I run ```ifconfig -a```. What can be wrong?
 * A careless sysadmin executes the following command: ```chmod 444 /bin/chmod ``` - what do you do to fix this?
