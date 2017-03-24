@@ -175,4 +175,4 @@
 * 8-10 сайтов рнр/nodejs
 * docker + aws autoscaled group + php-fpm
 
-  vim:ft=help:et:ts=2:sw=2:sts=2:ft=md:norl
+<!--- vim:ft=help:et:ts=2:sw=2:sts=2:ft=md:norl -->
