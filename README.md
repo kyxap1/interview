@@ -12,7 +12,6 @@
   1. [PostgreSQL](#postgres)
   1. [VPN](#vpn)
   1. [HTTP](#http)
-  1. [Frontend](#frontend)
 
 ## Вопросы
 
@@ -129,7 +128,7 @@
 * построение цепочек из тестов
 * работа с maven/gradle/xcode
 * управление semver артефактов
-* деплой артефактов в standalone wildfly
+* lifecycle артефактов
 * бекап конфигурации в git
 
 #### [[⬆]](#toc) <a name='java'>Java: jvm + Wildfly</a>
@@ -168,11 +167,5 @@
 * http rewrites, injects, response codes
 * таймауты + буферы + ограничения + кеши
 * live логи + статистика запросов
-
-#### [[⬆]](#toc) <a name='frontend'>Frontend</a>
-
-* load-based кластер php
-* 8-10 сайтов рнр/nodejs
-* docker + aws autoscaled group + php-fpm
 
 <!--- vim:ft=help:et:ts=2:sw=2:sts=2:ft=md:norl -->
